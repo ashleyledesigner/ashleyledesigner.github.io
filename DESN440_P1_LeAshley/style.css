@@ -1,0 +1,249 @@
+/*[CSS Style Skeleton] Style Sheet for [Client Name]
+
+Colors: ;
+
+
+Ostrich Sans for Titles
+Amber for Body Text
+
+*/
+
+
+/*************************************************
+ ********   This is used to separate pages    ********
+ *************************************************/
+
+
+/******This is used for page sections******/
+
+
+/*This is used for regular comments*/
+
+
+
+
+
+/**************************************************
+ ********   Universal Selections and Rules    ********
+ **************************************************/
+
+/****** Font Family ******/
+
+/** Used for Titles/Headers only
+<uniquifier>: Use a uniquifier for the class name
+<weight>: Use a value from 400 to 900
+**/
+
+.cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/** Used for Titles/Headers only
+<uniquifier>: Use a uniquifier for the class name
+<weight>: Use a value from 100 to 900
+**/
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
+/****** box model Fix ******/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+/****** clear Fix ******/
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+
+.row:after {
+	clear: both;
+}
+
+
+
+/****** image rules ******/
+img {
+	width: 100%;
+	filter: grayscale(0.6) blur(2px);
+}
+
+img:hover{
+	filter: grayscale(0.0);
+}
+
+header .row {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+header ul {
+	list-style: none;
+	margin: 10px 0 0 150px;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	margin-left: 18px;
+}
+
+
+
+/* HEADER STYLING */
+
+header .row {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+}
+
+#arcadia {
+	font-family: cinzel;
+	font-weight: 500;
+	font-size: 3rem;
+}
+
+.nav-pills a {
+	font-family: raleway;
+	color: #C9672A;
+}
+
+.nav-pills a:hover {
+	color: #6B5A40;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #C9672A;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background-color: #C9672A;
+}
+
+
+header ul {
+	list-style: none;
+	margin: 10px 0 0 150px;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	margin-left: 18px;
+}
+
+header .added-margin {
+	margin-top: 10px;
+}
+
+header li img {
+	margin: 0;
+}
+
+header li a {
+	color: #66615a; /* brown */
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+header li a:hover {
+	color: #c94a00; /* orange */
+}
+
+
+
+/***** Carousal *****/
+
+$carousel-indicator-hit-area-height: 1500px;
+
+.carousel-inner img {
+	position: relative;
+}
+
+#jumbotron-text {
+	position: absolute;
+	top: 50%;
+	color: #fff;
+	font-weight: 800;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.btn-primary {
+	--bs-btn-color: #fff;
+    --bs-btn-bg: #C9672A;
+    --bs-btn-border-color: #C9672A;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6B5A40;
+    --bs-btn-hover-border-color: #6B5A40;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #6B5A40;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #C9672A;
+    --bs-btn-disabled-border-color: #C9672A;
+}
+
+
+/****** Type Hierarchy HERE ******/
+
+body {
+	font-family: raleway;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: cinzel;
+}
+
+.tighten {
+	letter-spacing: -0.03em;
+}
+
+h2 {
+	padding-top: 30px;
+	padding-bottom: 3px;
+}
+
+p {
+	padding-bottom: 3px;
+}
+
+a {
+	color: #C9672A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
